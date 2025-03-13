@@ -1,0 +1,13 @@
+#goal definition
+
+std_msgs/Header header
+string name
+string location
+float64 amount
+---
+#result definition
+builtin_interfaces/Duration time
+bool material_dumped
+---
+#feedback definition
+float64 amount_dumped

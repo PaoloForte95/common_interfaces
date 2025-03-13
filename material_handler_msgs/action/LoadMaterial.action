@@ -1,0 +1,11 @@
+#goal definition
+string name
+string location
+float64 amount
+---
+#result definition
+builtin_interfaces/Duration time
+bool material_loaded
+---
+#feedback definition
+float64 amount_loaded
