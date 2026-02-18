@@ -16,6 +16,7 @@ find_package(geometry_msgs REQUIRED)
 
 set(msg_files
   "msg/Waypoint.msg"
+  "msg/WaypointArray.msg"
 )
 
 set(srv_files
