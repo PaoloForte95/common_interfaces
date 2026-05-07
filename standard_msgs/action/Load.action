@@ -1,0 +1,9 @@
+string target 
+string location
+float64 amount                                        
+---
+bool success
+float64 payload               
+---
+string phase                                   
+float32 progress                               
