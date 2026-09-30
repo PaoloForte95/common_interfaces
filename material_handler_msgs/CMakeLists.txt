@@ -17,6 +17,8 @@ find_package(geometry_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME} 
    #Msgs
     "msg/MaterialFlow.msg"
+    "msg/MaterialStock.msg"
+    "msg/MaterialStockArray.msg"
    #Services
    "srv/GetMaterialAmount.srv"
    #Actions
