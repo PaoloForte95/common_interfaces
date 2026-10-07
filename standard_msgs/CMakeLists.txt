@@ -15,6 +15,13 @@ find_package(geometry_msgs REQUIRED)
 
 set(msg_files
   "msg/StringMultiArray.msg"
+  "msg/BehaviorTreeLog.msg"
+  "msg/BehaviorTreeStatusChange.msg"
+  "msg/Event.msg"
+  "msg/Action.msg"
+  "msg/Method.msg"
+  "msg/Plan.msg"
+  "msg/PlanningState.msg"
 )
 
 set(action_files
